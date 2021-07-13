@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(data/background.jpg);
+    background-size: cover;
+}
+nav ul {
+    margin-top: 40px;
+}
+nav li{
+            font-weight:bolder;
+            font-size: 25px;
+            list-style-type: none;
+            display: inline;
+            position: relative;
+            left: 300px;
+            margin-left: 40px;           
+}
+ a{
+    text-decoration: none;
+    color:whitesmoke;
+
+}
+pre b{
+    color:pink;
+    display: block;
+    position: relative;
+    font-style: oblique;
+    font-size:40px;
+    font-weight: bolder;
+    transition: all 2s ease-in-out;
+    transform: translateY(10%);
+}
+
+.btn button{
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    background-color:transparent;
+    position: absolute;
+    left :550px;
+    bottom: 70px;
+    color:pink;
+    font-size: 20px;
+    font-weight:900;
+}
