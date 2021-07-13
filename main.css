@@ -4,23 +4,38 @@
 body{
     background-image: url(data/background.jpg);
     background-size: cover;
+
+    /* mostafa edit here */
+    background-position: center;
+    background-attachment: fixed;
+
 }
 nav ul {
-    margin-top: 40px;
+    margin-top: 40px auto;
 }
 nav li{
-            font-weight:bolder;
-            font-size: 25px;
-            list-style-type: none;
-            display: inline;
-            position: relative;
-            left: 300px;
-            margin-left: 40px;           
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    left: 30%;
+    margin-left: 40px;           
 }
  a{
+    font-size: 25px;
     text-decoration: none;
-    color:whitesmoke;
-
+    /* mostafa edit here */
+    padding: 0 5px ;
+    color: #fff;;
+    font-weight: 300;
+    font-size: 20px;
+}
+/* mostafa edit here */
+a:hover{
+    background: transparent;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid pink;
+    cursor: pointer;
 }
 pre b{
     color:pink;
@@ -32,16 +47,23 @@ pre b{
     transition: all 2s ease-in-out;
     transform: translateY(10%);
 }
-
+/* mostafa edit here */
 .btn button{
-    border-radius: 10px;
-    width: 150px;
-    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
     background-color:transparent;
     position: absolute;
     left :550px;
-    bottom: 70px;
-    color:pink;
+    bottom: 120px;
+    color: #fff;;
+    font-weight: 700;
+    border: none;
     font-size: 20px;
-    font-weight:900;
+}
+/* mostafa edit here */
+.btn button:hover{
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid pink;
 }
